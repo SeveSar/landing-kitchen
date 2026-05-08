@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header my-class">
+    <div class="container">
+        <div class="header__row">
+            <a href="#" class="header__logo">
+                <svg class="icon">
+                    <use xlink:href="img/sprite.svg#logo"></use>
+                </svg>
+                <div>
+                    <strong>
+                        Уютная
+                    </strong>
+                    <span>
+                        кухня
+                    </span>
+                </div>
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#" class="header__link">Меню</a></li>
+                    <li class="header__item header__item--orange">
+                        <a href="#" class="header__link" data-scroll="booking"> Кбронированию</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+</header>
+    <div class="main">
+
+        <section class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <div class="intro__img">
+                        <picture>
+                            <source srcset="img/intro.webp" type="image/webp">
+                            <img src="img/intro.png">
+                        </picture>
+                    </div>
+                    <h1 class="intro__title">
+                        Домашняя кухня в центре города
+                    </h1>
+                    <div class="intro__text">
+                        Бронируйте стол онлайн — мы подготовим всё к вашему приходу.
+                    </div>
+                    <button class="button button--big intro__button" data-scroll="booking">
+                        Забронировать стол
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div class="slider">
+            <div class="container">
+                <div class="slider__text">
+                    <span tabindex="0">Нравится атмосфера?</span>
+                    <a href="#" class="slider__link" data-scroll="booking">
+                        перейти к форме бронирования
+                    </a>
+                </div>
+                <div class="slider__inner">
+                    <div class="swiper-buttons">
+                        <div class="swiper-button-prev">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#prev"></use>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#next"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/slider/c1.webp" type="image/webp">
+                                    <img src="img/slider/c1.png">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/slider/c2.webp" type="image/webp">
+                                    <img src="img/slider/c2.png">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/slider/c3.webp" type="image/webp">
+                                    <img src="img/slider/c3.png">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/slider/c4.webp" type="image/webp">
+                                    <img src="img/slider/c4.png">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/slider/c5.webp" type="image/webp">
+                                    <img src="img/slider/c5.png">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/slider/c6.webp" type="image/webp">
+                                    <img src="img/slider/c6.png">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/slider/c7.webp" type="image/webp">
+                                    <img src="img/slider/c7.png">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/slider/c8.webp" type="image/webp">
+                                    <img src="img/slider/c8.png">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/slider/c9.webp" type="image/webp">
+                                    <img src="img/slider/c9.png">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/slider/c10.webp" type="image/webp">
+                                    <img src="img/slider/c10.png">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="img/slider/c11.webp" type="image/webp">
+                                    <img src="img/slider/c11.png">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </div>
+        <section class="questions">
+            <div class="container">
+                <h2 class="title questions__title">
+                    Частые вопросы
+                </h2>
+                <ul class="questions__accordion">
+                    <li class="questions__accordion-item active">
+                        <button class="questions__accordion-button" data-accordion-button>
+                            <span>
+                                Часы работы
+                            </span>
+                            <span class="plus"></span>
+                        </button>
+                        <div class="questions__accordion-content">
+                            <div class="questions__accordion-body">
+                                <div>
+                                    Пн–Чт 10:00–22:00 · Пт–Сб 10:00–23:00 · Вс 11:00–21:00
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="questions__accordion-item active">
+                        <button class="questions__accordion-button" data-accordion-button>
+                            <span>
+                                Как добраться
+                            </span>
+                            <span class="plus"></span>
+                        </button>
+                        <div class="questions__accordion-content">
+                            <div class="questions__accordion-body">
+                                <div>
+                                    м. Тверская, 5 минут пешком. Вход со двора, домофон 42.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="questions__accordion-item active">
+                        <button class="questions__accordion-button" data-accordion-button>
+                            <span>
+                                Детям и особые пожелания
+                            </span>
+                            <span class="plus"></span>
+                        </button>
+                        <div class="questions__accordion-content">
+                            <div class="questions__accordion-body">
+                                <div>
+                                    Детское меню и стульчики. Сообщите об аллергиях в форме бронирования.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="booking" id="booking">
+            <div class="container">
+                <div class="booking__inner">
+                    <h2 class="title booking__title">
+                        Бронирование стола
+                    </h2>
+                    <span class="booking__text">
+                        Заполните поля — перезвоним для подтверждения.
+                    </span>
+                    <form action="" class="booking__form" data-booking-form>
+                        <div class="booking__form-group">
+                            <label>
+                                <div class="booking__form-label">
+                                    Имя
+                                </div>
+                                <input name="first-name" autocomplete="given-name" class="booking__form-control"
+                                    type="text">
+                            </label>
+                        </div>
+                        <div class="booking__form-group">
+                            <label>
+                                <div class="booking__form-label">
+                                    Фамилия
+                                </div>
+                                <input name="last-name" autocomplete="family-name" class="booking__form-control"
+                                    type="text">
+                            </label>
+                        </div>
+                        <div class="booking__form-group">
+
+                            <label>
+                                <div class="booking__form-label">
+                                    Email
+                                </div>
+                                <input name="email" autocomplete="email" class="booking__form-control" type="email">
+                            </label>
+                        </div>
+                        <div class="booking__form-group">
+                            <label>
+                                <div class="booking__form-label">
+                                    Телефон
+                                </div>
+                                <input name="phone" autocomplete="tel" class="booking__form-control" type="text">
+                            </label>
+                        </div>
+                        <button type="submit" class="button button--small">
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="popup hidden" data-popup>
+        <div class="popup__content" data-popup-content>
+            <h2 class="popup__title">
+                Заявка отправлена
+            </h2>
+            <div class="popup__text">
+                Спасибо! Мы свяжемся с Вами в ближайшее время для подтверждения брони.
+            </div>
+            <button class="button popup__button button--extra-small" data-popup-close>
+                Закрыть
+            </button>
+        </div>
+    </div>
+    <!-- <img src="img/test.jpg" alt="Описание"> -->
+    <!-- <picture>
+        <source srcset="img/test.webp" type="image/webp">
+        <img src="img/test.jpg">
+    </picture> -->
+    <script src="js/libs/swiper-bundle.min.js" defer></script>
+    <script src="js/main.min.js" defer></script>
+</body>
+
+</html>
