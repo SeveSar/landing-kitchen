@@ -76,7 +76,7 @@
 
     function clearValues() {
         inputs.forEach(input => {
-            // input.value = '';
+            input.value = '';
         });
     }
 
