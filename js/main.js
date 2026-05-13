@@ -32,7 +32,6 @@
 
     form.addEventListener('submit', (e) => {
         e.preventDefault();
-        e.preventDefault();
 
         let isValid = true;
 
@@ -77,7 +76,7 @@
 
     function clearValues() {
         inputs.forEach(input => {
-            input.value = '';
+            // input.value = '';
         });
     }
 
